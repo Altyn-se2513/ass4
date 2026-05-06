@@ -1,6 +1,6 @@
 # Graph Traversal Project
 
-## 📌 Overview
+##  Overview
 This project implements a graph using an **adjacency list** and demonstrates two traversal algorithms:
 - Breadth-First Search (BFS)
 - Depth-First Search (DFS)
@@ -9,7 +9,7 @@ Graphs of different sizes (10, 30, 100 vertices) are used to analyze performance
 
 ---
 
-## 📌 Graph Structure
+##  Graph Structure
 The graph consists of:
 - Vertices (nodes)
 - Edges (connections)
@@ -22,7 +22,7 @@ Representation (adjacency list):
 
 ---
 
-## 📌 Classes
+##  Classes
 
 ### Vertex
 Represents a node with a unique `id`.
@@ -44,21 +44,21 @@ Runs BFS and DFS and measures execution time using `System.nanoTime()`.
 
 ---
 
-## 📌 BFS (Breadth-First Search)
+##  BFS (Breadth-First Search)
 - Uses a **queue**
 - Visits nodes level by level
 - Time complexity: **O(V + E)**
 
 ---
 
-## 📌 DFS (Depth-First Search)
+##  DFS (Depth-First Search)
 - Uses **recursion**
 - Explores deep paths first
 - Time complexity: **O(V + E)**
 
 ---
 
-## 📌 Experimental Results
+##  Experimental Results
 
 | Graph Size | BFS Time | DFS Time |
 |------------|----------|----------|
@@ -68,7 +68,7 @@ Runs BFS and DFS and measures execution time using `System.nanoTime()`.
 
 ---
 
-## 📌 Observations
+##  Observations
 - Execution time increases with graph size
 - Both BFS and DFS follow O(V + E) complexity
 - BFS is better for shortest path problems
@@ -76,5 +76,5 @@ Runs BFS and DFS and measures execution time using `System.nanoTime()`.
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 This project demonstrates graph representation using adjacency lists and compares BFS and DFS in terms of traversal behavior and performance on different graph sizes.
